@@ -1,10 +1,10 @@
 import requests
-from config import BEARER_TOKEN
+from config import BEARER_TOKEN, URL
 import sqlite3
 from datetime import datetime
 
-def auth_user(login: str, password: str, id_telegramm):
-    url = 'https://api.yclients.com/api/v1/auth'
+
+def auth_user(login: str, password: str, id_telegramm, url):
     headers = {"Authorization" : f"Bearer {BEARER_TOKEN}", "Accept" : "application/vnd.yclients.v2+json", "Content-Type" : "application/json"}
     data= {
     "login" : login,

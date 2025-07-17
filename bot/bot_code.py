@@ -3,12 +3,16 @@ from telebot import types
 import webbrowser
 import sqlite3
 import datetime
+
+
 from reqest_to_yacl import auth_user
 from rent_laser import rent_laser, text_message_rent_laser
 from feedback import feedback
+from autorization import authorization_login, authorization_password
+
+
 bot = telebot.TeleBot('8038575218:AAGZF_QASpCY85z540beqVRrO5dt4Y-9P34')
 
-user_auth_info = {}
 
 @bot.message_handler(commands = ['start'])
 def function_start(message):
@@ -48,25 +52,7 @@ def on_start_button_click(message):
     elif message.text == 'Оставить отзыв':
         bot.send_message(message.chat.id, 'Напишите свой отзыв в сообщении и отправте его')
         bot.register_next_step_handler(message, feedback_func)
-def authorization_login(message):
-    login = message.text
-    user_auth_info['login'] = str(login)
-    bot.send_message(message.chat.id, 'Вам необходимо авторизоваться в системе, перейдем к паролю, введите пароль:')
-    bot.register_next_step_handler(message, authorization_password)
 
-def authorization_password(message):
-    passwod = message.text
-    user_auth_info['password'] = str(passwod)
-    result = auth_user(user_auth_info['login'], user_auth_info['password'], message.from_user.id)
-    if result == "Вы успешно авторизовались":
-        pass
-    elif result == "Что-то не так с авторизацией":
-        marckup_2 = types.InlineKeyboardMarkup()
-        btn_6 = types.InlineKeyboardButton("Пройти \n регистрацию", url= 'https://n1412178.yclients.com/')
-        btn_7 = types.InlineKeyboardButton("Попробовать снова", callback_data= 'start')
-        marckup_2.row(btn_6)
-        marckup_2.row(btn_7)
-        bot.send_message(message.chat.id, "Пройдите регистрацию в ситсеме", reply_markup= marckup_2)
         
 def feedback_func(message):
     bot.send_message(message.chat.id, feedback(str(message.text), message.from_user.id, message.from_user.first_name))

@@ -1,6 +1,8 @@
 import telebot
+from telebot import types
 
 from reqest_to_yacl import auth_user
+from config import URL
 
 bot = telebot.TeleBot('8038575218:AAGZF_QASpCY85z540beqVRrO5dt4Y-9P34')
 user_auth_info = {}
@@ -15,7 +17,7 @@ def authorization_login(message):
 def authorization_password(message):
     passwod = message.text
     user_auth_info['password'] = str(passwod)
-    result = auth_user(user_auth_info['login'], user_auth_info['password'], message.from_user.id)
+    result = auth_user(user_auth_info['login'], user_auth_info['password'], message.from_user.id, URL)
     if result == "Вы успешно авторизовались":
         pass
     elif result == "Что-то не так с авторизацией":
