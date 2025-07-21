@@ -1,0 +1,12 @@
+project/
+│
+├── __init__.py
+│
+├── module1/
+│   ├── __init__.py
+│   └── func1.py
+│
+└── module2/
+    ├── __init__.py
+    └── func2.py
+

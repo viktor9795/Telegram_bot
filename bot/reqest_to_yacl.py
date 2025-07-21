@@ -4,8 +4,10 @@ import sqlite3
 from datetime import datetime
 
 
-def auth_user(login: str, password: str, id_telegramm, url):
-    headers = {"Authorization" : f"Bearer {BEARER_TOKEN}", "Accept" : "application/vnd.yclients.v2+json", "Content-Type" : "application/json"}
+def auth_user(login: str, password: str, id_telegramm, url: str):
+    headers = {"Authorization" : f"Bearer {BEARER_TOKEN}", 
+               "Accept" : "application/vnd.yclients.v2+json", 
+               "Content-Type" : "application/json"}
     data= {
     "login" : login,
     "password": password

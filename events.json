@@ -1,0 +1,2180 @@
+[
+    {
+        "id": 25609989,
+        "service_id": 20541570,
+        "company_id": 1279314,
+        "staff_id": 3821342,
+        "date": "2025-07-22 19:00:00",
+        "timestamp": 1753196400,
+        "length": 9000,
+        "capacity": 6,
+        "color": "#ffc107",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#000000",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3821342,
+            "name": "Вадим",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13126587,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 6,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/d/dd/dd19b9006ef3a97_20250420003447.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/d/d5/d52e01498cbe373_20250420003448.png",
+            "position": []
+        },
+        "service": {
+            "id": 20541570,
+            "title": "Тренировочная гонка",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 23269731,
+            "comment": "Репетиция настоящих регат и отличная возможность потренировать все элементы дистанции. Подходит как начинающим лучистам, так и опытным гонщикам.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 202707,
+                "title": "Луч 7",
+                "resource_id": 115039
+            },
+            {
+                "id": 204006,
+                "title": "Катер красный",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25609989,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25610142,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3836682,
+        "date": "2025-07-23 07:00:00",
+        "timestamp": 1753239600,
+        "length": 9000,
+        "capacity": 6,
+        "color": "",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3836682,
+            "name": "Кирилл",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13136088,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 9,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/5/56/56035293a6951df_20250419125142.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/6/68/6805cad349b3a75_20250419125142.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25610142,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25611336,
+        "service_id": 19116193,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-07-23 18:30:00",
+        "timestamp": 1753281000,
+        "length": 14400,
+        "capacity": 7,
+        "color": "#cddc39",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#000000",
+        "notified": false,
+        "comment": null,
+        "records_count": 1,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116193,
+            "title": "Спецтренировка",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629760,
+            "comment": "",
+            "price_min": 7000,
+            "price_max": 7000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 202707,
+                "title": "Луч 7",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25611336,
+            "services_duration": 14400,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25610067,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3836682,
+        "date": "2025-07-24 07:00:00",
+        "timestamp": 1753326000,
+        "length": 9000,
+        "capacity": 6,
+        "color": "",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3836682,
+            "name": "Кирилл",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13136088,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 9,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/5/56/56035293a6951df_20250419125142.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/6/68/6805cad349b3a75_20250419125142.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25610067,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25610997,
+        "service_id": 19424408,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-07-24 19:00:00",
+        "timestamp": 1753369200,
+        "length": 10800,
+        "capacity": 6,
+        "color": "#9c27b0",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 1,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19424408,
+            "title": "Закатная регата",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21996105,
+            "comment": "Лучшая возможность в будни отключиться от рабочих задач и быта, насладиться закатом и азартом гонок в приятной компании.",
+            "price_min": 4000,
+            "price_max": 4000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25610997,
+            "services_duration": 10800,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25610451,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3836682,
+        "date": "2025-07-26 12:30:00",
+        "timestamp": 1753518600,
+        "length": 9000,
+        "capacity": 4,
+        "color": "",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3836682,
+            "name": "Кирилл",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13136088,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 9,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/5/56/56035293a6951df_20250419125142.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/6/68/6805cad349b3a75_20250419125142.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25610451,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25616097,
+        "service_id": 19424671,
+        "company_id": 1279314,
+        "staff_id": 3821342,
+        "date": "2025-07-26 19:00:00",
+        "timestamp": 1753542000,
+        "length": 14400,
+        "capacity": 4,
+        "color": "#cddc39",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#000000",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3821342,
+            "name": "Вадим",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13126587,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 6,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/d/dd/dd19b9006ef3a97_20250420003447.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/d/d5/d52e01498cbe373_20250420003448.png",
+            "position": []
+        },
+        "service": {
+            "id": 19424671,
+            "title": "Регата \"Первые старты\"",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21996421,
+            "comment": "Для начинающих гонщиков\nс опытом групповых занятий.\nШирокая стартовая линия\nи комфортная дистанция.",
+            "price_min": 4000,
+            "price_max": 4000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25616097,
+            "services_duration": 14400,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25611513,
+        "service_id": 19279604,
+        "company_id": 1279314,
+        "staff_id": 3821342,
+        "date": "2025-07-27 11:00:00",
+        "timestamp": 1753599600,
+        "length": 14400,
+        "capacity": 4,
+        "color": "#9c27b0",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3821342,
+            "name": "Вадим",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13126587,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 6,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/d/dd/dd19b9006ef3a97_20250420003447.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/d/d5/d52e01498cbe373_20250420003448.png",
+            "position": []
+        },
+        "service": {
+            "id": 19279604,
+            "title": "Клубная регата",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21816148,
+            "comment": "Гонки флота по классической дистанции.",
+            "price_min": 4000,
+            "price_max": 4000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25611513,
+            "services_duration": 14400,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25612731,
+        "service_id": 19116194,
+        "company_id": 1279314,
+        "staff_id": 3821342,
+        "date": "2025-07-27 18:00:00",
+        "timestamp": 1753624800,
+        "length": 10800,
+        "capacity": 4,
+        "color": "#00bcd4",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 1,
+        "prepaid": "required",
+        "staff": {
+            "id": 3821342,
+            "name": "Вадим",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13126587,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 6,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/d/dd/dd19b9006ef3a97_20250420003447.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/d/d5/d52e01498cbe373_20250420003448.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116194,
+            "title": "Вечер с тренером",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629761,
+            "comment": "",
+            "price_min": 5500,
+            "price_max": 0,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25612731,
+            "services_duration": 10800,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25611822,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3836682,
+        "date": "2025-07-28 18:30:00",
+        "timestamp": 1753713000,
+        "length": 9000,
+        "capacity": 4,
+        "color": "#cddc39",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#000000",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3836682,
+            "name": "Кирилл",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13136088,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 9,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/5/56/56035293a6951df_20250419125142.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/6/68/6805cad349b3a75_20250419125142.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25611822,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25613022,
+        "service_id": 20320221,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-07-29 07:00:00",
+        "timestamp": 1753758000,
+        "length": 7200,
+        "capacity": 5,
+        "color": "#ff9800",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 1,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 20320221,
+            "title": "Рассветная регата",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 23006610,
+            "comment": "Самое бодрое доброе утро на гонках в кругу единомышленников",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25613022,
+            "services_duration": 7200,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25612866,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3836682,
+        "date": "2025-07-29 18:30:00",
+        "timestamp": 1753799400,
+        "length": 9000,
+        "capacity": 6,
+        "color": "",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3836682,
+            "name": "Кирилл",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13136088,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 9,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/5/56/56035293a6951df_20250419125142.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/6/68/6805cad349b3a75_20250419125142.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25612866,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25611921,
+        "service_id": 19116194,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-07-30 18:30:00",
+        "timestamp": 1753885800,
+        "length": 10800,
+        "capacity": 6,
+        "color": "#00bcd4",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116194,
+            "title": "Вечер с тренером",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629761,
+            "comment": "",
+            "price_min": 5500,
+            "price_max": 0,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25611921,
+            "services_duration": 10800,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25613004,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3836682,
+        "date": "2025-07-31 07:00:00",
+        "timestamp": 1753930800,
+        "length": 9000,
+        "capacity": 6,
+        "color": "",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "required",
+        "staff": {
+            "id": 3836682,
+            "name": "Кирилл",
+            "company_id": 1279314,
+            "specialization": "Тренер",
+            "api_id": null,
+            "user_id": 13136088,
+            "rating": 5,
+            "prepaid": "required",
+            "show_rating": 1,
+            "comments_count": 9,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/5/56/56035293a6951df_20250419125142.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/6/68/6805cad349b3a75_20250419125142.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25613004,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25613037,
+        "service_id": 19424408,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-07-31 19:00:00",
+        "timestamp": 1753974000,
+        "length": 10800,
+        "capacity": 5,
+        "color": "#9c27b0",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19424408,
+            "title": "Закатная регата",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21996105,
+            "comment": "Лучшая возможность в будни отключиться от рабочих задач и быта, насладиться закатом и азартом гонок в приятной компании.",
+            "price_min": 4000,
+            "price_max": 4000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25613037,
+            "services_duration": 10800,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25621713,
+        "service_id": 21248490,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-08-01 18:30:00",
+        "timestamp": 1754058600,
+        "length": 14400,
+        "capacity": 8,
+        "color": "#2196f3",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 5,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 21248490,
+            "title": "Регата Развязаны",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 24048189,
+            "comment": "Дружеская регата с посиделками после",
+            "price_min": 4500,
+            "price_max": 4500,
+            "prepaid": "required",
+            "abonement_restriction": 0,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 202707,
+                "title": "Луч 7",
+                "resource_id": 115039
+            },
+            {
+                "id": 202708,
+                "title": "Луч 8",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25621713,
+            "services_duration": 14400,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25614861,
+        "service_id": 19424671,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-08-02 12:00:00",
+        "timestamp": 1754121600,
+        "length": 10800,
+        "capacity": 4,
+        "color": "",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19424671,
+            "title": "Регата \"Первые старты\"",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21996421,
+            "comment": "Для начинающих гонщиков\nс опытом групповых занятий.\nШирокая стартовая линия\nи комфортная дистанция.",
+            "price_min": 4000,
+            "price_max": 4000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            }
+        ],
+        "duration_details": {
+            "id": 25614861,
+            "services_duration": 10800,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25615083,
+        "service_id": 19116193,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-08-02 16:00:00",
+        "timestamp": 1754136000,
+        "length": 14400,
+        "capacity": 5,
+        "color": "#ffeb3b",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#000000",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116193,
+            "title": "Спецтренировка",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629760,
+            "comment": "",
+            "price_min": 7000,
+            "price_max": 7000,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25615083,
+            "services_duration": 14400,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25621761,
+        "service_id": 21247926,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-08-03 12:00:00",
+        "timestamp": 1754208000,
+        "length": 18000,
+        "capacity": 9,
+        "color": "#00bcd4",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 2,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 21247926,
+            "title": "Командные гонки",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 24047622,
+            "comment": "Разделимся на команды и выведем тактическую борьбу на дистанции на новый уровень",
+            "price_min": 4500,
+            "price_max": 4500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 202706,
+                "title": "Луч 6",
+                "resource_id": 115039
+            },
+            {
+                "id": 202707,
+                "title": "Луч 7",
+                "resource_id": 115039
+            },
+            {
+                "id": 202708,
+                "title": "Луч 8",
+                "resource_id": 115039
+            },
+            {
+                "id": 202709,
+                "title": "Луч 9",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25621761,
+            "services_duration": 18000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25615440,
+        "service_id": 19116192,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-08-04 18:30:00",
+        "timestamp": 1754317800,
+        "length": 9000,
+        "capacity": 5,
+        "color": "#cddc39",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#000000",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 19116192,
+            "title": "Групповая тренировка (допуск с опытом индивидуальных тренировок)",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 21629759,
+            "comment": "Улучшаем навыки маневрирования, технику скорости и участвуем в тренировочных гонках.",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 202705,
+                "title": "Луч 5",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25615440,
+            "services_duration": 9000,
+            "technical_break_duration": 0
+        }
+    },
+    {
+        "id": 25615551,
+        "service_id": 20320221,
+        "company_id": 1279314,
+        "staff_id": 3863399,
+        "date": "2025-08-05 07:00:00",
+        "timestamp": 1754362800,
+        "length": 7200,
+        "capacity": 4,
+        "color": "#ff9800",
+        "instructions": "",
+        "stream_link": "",
+        "font_color": "#ffffff",
+        "notified": false,
+        "comment": null,
+        "records_count": 0,
+        "prepaid": "forbidden",
+        "staff": {
+            "id": 3863399,
+            "name": "Настя",
+            "company_id": 1279314,
+            "specialization": "Тренер, основатель \"СВЯЗАНЫ\"",
+            "api_id": null,
+            "user_id": 13126549,
+            "rating": 5,
+            "prepaid": "forbidden",
+            "show_rating": 1,
+            "comments_count": 2,
+            "votes_count": 0,
+            "average_score": 5,
+            "avatar": "https://assets.yclients.com/masters/sm/6/69/6957df3b72153a9_20250505134837.png",
+            "avatar_big": "https://assets.yclients.com/masters/origin/4/4a/4acda986eb497e7_20250505134837.png",
+            "position": []
+        },
+        "service": {
+            "id": 20320221,
+            "title": "Рассветная регата",
+            "image_url": "",
+            "category_id": 19116190,
+            "is_category": false,
+            "salon_service_id": 23006610,
+            "comment": "Самое бодрое доброе утро на гонках в кругу единомышленников",
+            "price_min": 3500,
+            "price_max": 3500,
+            "prepaid": "required",
+            "abonement_restriction": 1,
+            "category": {
+                "title": "Групповые тренировки и регаты",
+                "id": 19116190,
+                "category_id": 1,
+                "is_category": true,
+                "salon_service_id": 21629757,
+                "prepaid": "forbidden",
+                "abonement_restriction": 0,
+                "category": {
+                    "category": [],
+                    "id": 1,
+                    "category_id": 0,
+                    "is_category": false,
+                    "title": "%root"
+                }
+            },
+            "trial_settings": null
+        },
+        "labels": [],
+        "resource_instances": [
+            {
+                "id": 202046,
+                "title": "Луч 1",
+                "resource_id": 115039
+            },
+            {
+                "id": 202047,
+                "title": "Луч 2",
+                "resource_id": 115039
+            },
+            {
+                "id": 202048,
+                "title": "Луч 3",
+                "resource_id": 115039
+            },
+            {
+                "id": 202704,
+                "title": "Луч 4",
+                "resource_id": 115039
+            },
+            {
+                "id": 204005,
+                "title": "Катер серый",
+                "resource_id": 116343
+            }
+        ],
+        "duration_details": {
+            "id": 25615551,
+            "services_duration": 7200,
+            "technical_break_duration": 0
+        }
+    }
+]

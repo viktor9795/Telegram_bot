@@ -3,15 +3,13 @@ from telebot import types
 import webbrowser
 import sqlite3
 import datetime
+import sys
+import os
+import subprocess
 
 
-from reqest_to_yacl import auth_user
-from rent_laser import rent_laser, text_message_rent_laser
-from feedback import feedback
-from autorization import authorization_login, authorization_password
-
-
-bot = telebot.TeleBot('8038575218:AAGZF_QASpCY85z540beqVRrO5dt4Y-9P34')
+ROOT_DIR = r'/Users/viktorgreznow/Desktop/Telegram_bot_for_sailing_scool'
+bot = telebot.TeleBot(BOT_ID)
 
 
 @bot.message_handler(commands = ['start'])
@@ -84,5 +82,25 @@ def open_yacl(callback):
         bot.send_message(callback.message.chat.id, 'Вам необходимо авторизоваться в системе, начнем с логина, введите логин:')
         bot.register_next_step_handler(callback.message, authorization_login)
 
+
 if __name__ == '__main__':
+    list_new_dir  = []
+
+    for path in sys.path:
+        if not path.endswith('Telegram_bot'):
+            list_new_dir.append(os.path.join(ROOT_DIR, r'Telegram_bot'))
+        elif not path.endswith('bot_code'):
+            list_new_dir.append(os.path.join(ROOT_DIR, r'Telegram_bot/bot_code'))
+        elif not path.endswith('events'):
+            list_new_dir.append(os.path.join(ROOT_DIR, r'Telegram_bot/events'))
+    
+    for p in list_new_dir:
+        sys.path.append(p)
+    
+    from bot.reqest_to_yacl import auth_user
+    from bot.rent_laser import rent_laser, text_message_rent_laser
+    from bot.feedback import feedback
+    from bot.autorization import authorization_login, authorization_password
+    from config import BOT_ID
+    subprocess.run(['python', '-m', 'bot_code'])
     bot.polling(non_stop= True)
